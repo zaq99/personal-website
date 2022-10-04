@@ -117,16 +117,16 @@ nav > ul > li a:hover{
 }
 /* //// hero end //// */
 
-/* /// nama //// */
-#nama{
+.hero > div{
     padding-left: 40px;
 }
-/* /// nama end /// */
-/* /// about ////// */
-#about{
-    padding-left:40px;
+
+.hero > div:nth-child(6){
+    padding-left: 0px;
 }
 
+
+/* /// about ////// */
 #about h3{
     color: #F0BF6C;
 }
