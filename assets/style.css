@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 8px 20px;
+    font-weight: 600;
+    color: #34353A;
+    background-color: #F0BF6C;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color: #ffda99;
+}
+
+/* ----- color style------ */
+.warnaUtama{
+    background-color: #34353A;
+}
+
+.warnaKedua{
+    background-color: #3D3E42;
+}
+
+.teksPutih{
+    color: #fff;
+}
+/* ----- color end ------ */
+
+/* ////// header /////// */
+/* ///// header end //// */
+
+/* ///// nav ///////// */
+nav {
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F0BF6C;
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+}
+
+nav > ul > li a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #999;
+}
+
+nav > ul > li a:hover{
+    color: #fff;
+}
+/* ////// nav end /////// */
+
+
+/* ////// main ////// */
+
+/* /// hero /// */
+.hero{
+    margin-top: 20px;
+    background: linear-gradient(270deg, #3D3E42 0%, rgba(61, 62, 66, 0) 74.7%);
+    border-radius: 20px;
+    height: 480px;
+
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.hero .nama{
+    padding-left: 40px;
+}
+.hero p{
+    font-size: 20px;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #F0BF6C;
+}
+
+.hero img{
+    height: 520px;
+}
+
+.hero a {
+    display: inline-block;
+    margin-top: 50px;
+}
+/* //// hero end //// */
+
+
+
