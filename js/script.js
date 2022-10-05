@@ -68,6 +68,8 @@ function munculkanPage (pageName){
         if(i == pageName){
             // hapus class pada section tersebut yang bernama 'hilang'
             pageName.classList.remove('hilang')
+            // berikan animasi
+            pageName.classList.add('animate__animated', 'animate__fadeInRight' )
         // jika tidak sama
         } else {
             // berikan attribute class 'hilang'
