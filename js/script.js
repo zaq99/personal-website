@@ -18,6 +18,14 @@ let secAbout = parentSection[1];
 let secPorto = parentSection[2];
 let secArt = parentSection[3];
 
+// ambil semua link yang ada dalam div phone(footer)
+let navPhone = document.querySelectorAll('.phone a');
+
+// ambil link dari bagian footer
+btnHomePhone = navPhone[0];
+btnAboutPhone = navPhone[1];
+btnPortoPhone = navPhone[2];
+btnArtPhone = navPhone[3];
 
 // berikan fitur klik dan pada setiap button
 // dan jalankan function whenOnClik ketika di klik
@@ -25,6 +33,12 @@ btnHome.addEventListener('click',whenOnClick);
 btnAbout.addEventListener('click',whenOnClick);
 btnPorto.addEventListener('click',whenOnClick);
 btnArt.addEventListener('click',whenOnClick);
+
+btnHomePhone.addEventListener('click',whenOnClickPhone)
+btnAboutPhone.addEventListener('click',whenOnClickPhone)
+btnPortoPhone.addEventListener('click',whenOnClickPhone)
+btnArtPhone.addEventListener('click',whenOnClickPhone)
+
 
 
 // function whenOnclick dan menampung data event
@@ -46,6 +60,19 @@ function whenOnClick(event){
     event.preventDefault();
 };
 
+function whenOnClickPhone(event){
+    if(event.target == btnAboutPhone){
+        munculkanPage(secAbout);
+    } else if(event.target == btnPortoPhone){
+        munculkanPage(secPorto);
+    } else if(event.target == btnArtPhone){
+        munculkanPage(secArt);
+    } else {
+        munculkanPage(secNama);
+    }
+
+    event.preventDefault()
+}
 
 // function munculkanPage untuk memunculkan dan menghilangkan page
 // tangkap data dari argumen pertama yang diberikan pada function aktifkan
@@ -83,3 +110,4 @@ function aktifkan(a,b){
     munculkanPage(a)
     nyalakanLink(b)
 }
+

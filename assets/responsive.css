@@ -1,0 +1,84 @@
+@media screen and (max-width : 512px) {
+
+/* ///// header style ////// */
+nav{
+    z-index: 10;
+}
+
+nav > ul {
+    background-color: aqua;
+    visibility: hidden;
+    position: absolute;
+}
+
+
+/* ///// haeder end //////// */
+
+/* ////// main /////////// */
+
+.hero{
+    height: auto;
+    flex-direction: column-reverse;
+    margin-bottom: 100px;
+}
+
+.hero div:nth-child(1){
+    position:absolute;
+}
+
+.hero > div{
+    padding: 20px;
+}
+
+.hero > img{
+    width: 100%;
+    left: 200px;
+    position: relative;
+    z-index: -1;
+}
+
+.hero p{
+    font-size: 16px;
+}
+
+#about p{
+    width: 400px;
+    font-size: 16px;
+    line-height: 2;
+}
+
+#porto {
+    background-color: red;
+}
+
+#porto .pembungkusMySkill{
+    width: 100%;
+    background-color: aqua;
+}
+
+#porto .pembungkusMySkill div{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+#porto .pembungkusMySkill div > p{
+    font-size: 10px;
+}
+
+/* ////// main end /////// */
+
+/* ///// footer /////// */
+
+footer .phone{
+    visibility: visible;
+    position: static;
+}
+
+footer .notPhone{
+    visibility: hidden;
+    position: absolute;
+}
+
+/* //// footer end //// */
+}
