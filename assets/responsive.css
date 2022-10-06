@@ -47,13 +47,13 @@ nav > ul {
     line-height: 2;
 }
 
-#porto {
+/* #porto {
     background-color: red;
-}
+} */
 
 #porto .pembungkusMySkill{
     width: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 #porto .pembungkusMySkill div{
