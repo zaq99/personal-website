@@ -49,6 +49,11 @@
 /* ----- color end ------ */
 
 /* ////// header /////// */
+header{
+    margin-top: 20px;
+    position: sticky;
+    top:0;
+}
 /* ///// header end //// */
 
 /* ///// nav ///////// */
@@ -137,3 +142,83 @@ nav > ul > li a:hover{
     font-size: 16px;
     width: 600px;
 }
+/* /// about end /// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////// footer ////// */
+footer{
+    /* background-color: yellowgreen; */
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+footer .notPhone{
+    margin: auto;
+    width: 40%;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+footer .notPhone a{
+    text-align: center;
+    padding: 8px;
+    flex-basis: 100%;
+}
+
+footer .notPhone a:hover{
+    background-color: #F0BF6C;
+}
+
+
+footer .notPhone img{
+    width: 18px;
+}
+
+footer .phone{
+    margin: auto;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+footer .phone a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    flex-basis: 100%;
+}
+
+footer .phone a:hover{
+    background-color: #F0BF6C;
+    color: #34353A;
+}
+/* ////// footer end //// */
+
+
+
+/* ////////////////////////////////////////// */
+/* ////////////////////////////////////////// */
