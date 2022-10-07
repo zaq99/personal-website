@@ -1,8 +1,18 @@
 @media screen and (max-width : 512px) {
 
+.container{
+    width: 100%;
+}
+
 /* ///// header style ////// */
+
 nav{
     z-index: 1;
+    padding: 0 10px;
+}
+
+nav .btn{
+    padding: 4px 20px;
 }
 
 nav > ul {
