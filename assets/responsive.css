@@ -29,7 +29,7 @@ nav > ul {
 
 .hero > img{
     width: 100%;
-    left: 200px;
+    /* left: 200px; */
     /* position: relative; */
     z-index: -1;
 }
@@ -67,6 +67,9 @@ nav > ul {
 /* ////// main end /////// */
 
 /* ///// footer /////// */
+footer{
+    width: 100%;
+}
 
 footer .phone{
     visibility: visible;
