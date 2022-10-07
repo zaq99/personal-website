@@ -133,6 +133,20 @@ nav > ul > li a:hover{
 .hero div h3{
     color: #F0BF6C;
 }
+
+/* ------------------------- */
+.hero .qrCode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.hero .qrCode > img{
+    width: 300px;
+}
+/* ------------------------- */
+
 /* //// hero end //// */
 
 
@@ -154,7 +168,7 @@ nav > ul > li a:hover{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 6px;
+    margin: 3px;
 }
 
 #about .pembungkusMySkill div{
@@ -261,8 +275,6 @@ nav > ul > li a:hover{
 #porto > .pembungkus > div:nth-child(11){
     background-image: url(logoOnfire.jpg);
 }
-
-
 /* /// porto end /// */
 
 /* /// article start /// */
@@ -271,8 +283,9 @@ nav > ul > li a:hover{
     font-size: 16px;
     width: 600px;
 }
-
 /* /// article end /// */
+
+/* //// main end /// */
 
 
 

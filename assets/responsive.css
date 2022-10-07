@@ -15,10 +15,17 @@ nav .btn{
 }
 
 nav > ul {
-    background-color: aqua;
+    /* background-color: aqua; */
     visibility: hidden;
     position: absolute;
 }
+
+/* --------------------- */
+header > .navKontak ul{
+    visibility: visible;
+    position: static;
+}
+/* --------------------- */
 
 
 /* ///// haeder end //////// */
@@ -47,6 +54,21 @@ nav > ul {
 .hero p{
     font-size: 16px;
 }
+
+/* -------kontak page ----/*/
+.hero > .kontak{
+    text-align: center;
+}
+
+.hero > .kontak > h1{
+    font-size: 38px;
+}
+
+.hero > .kontak > a{
+    width: 90%;
+}
+/* ----- kontak page end ---- */
+
 /* ------------------------- */
 #about{
     z-index: 0;
