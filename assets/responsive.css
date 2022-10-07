@@ -20,6 +20,7 @@ nav > ul {
     height: auto;
     flex-direction: column-reverse;
     margin-bottom: 100px;
+    
 }
 
 .hero > div{
@@ -38,7 +39,7 @@ nav > ul {
 }
 
 #about p{
-    width: 300px;
+    width: 100%;
     font-size: 16px;
     line-height: 2;
 }
@@ -49,6 +50,7 @@ nav > ul {
 
 #porto .pembungkusMySkill{
     width: 100%;
+    gap: 10px;
     /* background-color: aqua; */
 }
 
