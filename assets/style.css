@@ -183,9 +183,87 @@ nav > ul > li a:hover{
 /* /// porto ///// */
 #porto {
     height: 100%;
+    /* background-image: url(logoAi.png); */
 }
-/* /// porto end /// */
 
+#porto > .pembungkus{
+    margin-top: 20px;
+    padding: 4px;
+    width: 70%;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#porto > .pembungkus > div{
+    height: 100px;
+    width: 100px;
+    margin: 3px;
+    border-radius: 4px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 0;
+    flex-basis: 20%;
+    flex-shrink: 1;
+}
+
+#porto > .pembungkus > div:nth-child(1){
+    background-image: url(airBnb.png);    
+}
+
+#porto > .pembungkus > div:nth-child(2){
+    background-image: url(bandai.png);
+    flex-basis: 40%;
+}
+
+#porto > .pembungkus > div:nth-child(3){
+    background-image: url(earphone.png);
+}
+
+#porto > .pembungkus > div:nth-child(4){
+    background-image: url(tafsirQ.png);
+    flex-basis: 40%;
+}
+
+#porto > .pembungkus > div:nth-child(5){
+    background-image: url(cocaCola.png);
+    flex-basis: 40%;
+}
+
+#porto > .pembungkus > div:nth-child(6){
+    background-image: url(vespa.png);
+}
+
+#porto > .pembungkus > div:nth-child(7){
+    background-image: url(vector-2.png);
+}
+
+#porto > .pembungkus > div:nth-child(7){
+    background-image: url(onic\ kayes.png);
+}
+
+#porto > .pembungkus > div:nth-child(8){
+    background-image: url(sunrisePay.png);
+    flex-basis: 40%;
+}
+
+#porto > .pembungkus > div:nth-child(9){
+    background-image: url(berlajarAbc.png);
+    flex-basis: 40%;
+}
+
+#porto > .pembungkus > div:nth-child(10){
+    background-image: url(vetor-1.png);
+}
+
+#porto > .pembungkus > div:nth-child(11){
+    background-image: url(logoOnfire.jpg);
+}
+
+
+/* /// porto end /// */
 
 
 

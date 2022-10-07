@@ -72,6 +72,16 @@ nav > ul {
 #about .pembungkusMySkill div > p{
     font-size: 10px;
 }
+/* --------------------------- */
+
+#porto > .pembungkus{
+    width: 100%;
+}
+
+#porto > .pembungkus > div{
+    flex-grow: 1;
+}
+
 /* ---------------------------- */
 .navigasiBawah{
     width: 100%;
