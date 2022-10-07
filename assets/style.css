@@ -127,10 +127,6 @@ nav > ul > li a:hover{
     padding-left: 40px;
 }
 
-.hero > div:nth-child(6){
-    padding-left: 0px;
-}
-
 .hero div h3{
     color: #F0BF6C;
 }
@@ -149,7 +145,7 @@ nav > ul > li a:hover{
     height: 100%;
 }
 #porto .pembungkusMySkill{
-    /* background-color: aqua; */
+    background-color: aqua;
     margin-top: 10px;
     margin-bottom: 30px;
     width: 70%;
