@@ -77,16 +77,16 @@ nav > ul {
 /* ////// main end /////// */
 
 /* ///// footer /////// */
-footer{
+.navigasiBawah{
     width: 100%;
 }
 
-footer .phone{
+.navigasiBawah .phone{
     visibility: visible;
     position: static;
 }
 
-footer .notPhone{
+.navigasiBawah .notPhone{
     visibility: hidden;
     position: absolute;
 }

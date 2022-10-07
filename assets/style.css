@@ -193,7 +193,7 @@ nav > ul > li a:hover{
 
 
 /* ////// footer ////// */
-footer{
+.navigasiBawah {
     /* background-color: yellowgreen; */
     overflow: hidden;
     width: 100%;
@@ -201,7 +201,7 @@ footer{
     bottom: 0;
 }
 
-footer .notPhone{
+.navigasiBawah .notPhone{
     margin: auto;
     width: 40%;
     border-radius: 10px 10px 0 0;
@@ -216,22 +216,22 @@ footer .notPhone{
 
 }
 
-footer .notPhone a{
+.navigasiBawah .notPhone a{
     text-align: center;
     padding: 8px;
     flex-basis: 100%;
 }
 
-footer .notPhone a:hover{
+.navigasiBawah .notPhone a:hover{
     background-color: #F0BF6C;
 }
 
 
-footer .notPhone img{
+.navigasiBawah .notPhone img{
     width: 18px;
 }
 
-footer .phone{
+.navigasiBawah .phone{
     margin: auto;
     width: 100%;
     border-radius: 10px 10px 0 0;
@@ -243,7 +243,7 @@ footer .phone{
     position:absolute;
 }
 
-footer .phone a{
+.navigasiBawah .phone a{
     color: white;
     text-decoration: none;
     text-align: center;
@@ -251,7 +251,7 @@ footer .phone a{
     flex-basis: 100%;
 }
 
-footer .phone a:hover{
+.navigasiBawah .phone a:hover{
     background-color: #F0BF6C;
     color: #34353A;
 }
