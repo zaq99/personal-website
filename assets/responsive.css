@@ -7,7 +7,6 @@
 /* ///// header style ////// */
 
 nav{
-    z-index: 1;
     padding: 0 10px;
 }
 
@@ -47,6 +46,10 @@ nav > ul {
 .hero p{
     font-size: 16px;
 }
+/* ------------------------- */
+#about{
+    z-index: 0;
+}
 
 #about p{
     width: 100%;
@@ -54,29 +57,22 @@ nav > ul {
     line-height: 2;
 }
 
-/* #porto {
-    background-color: red;
-} */
-
-#porto .pembungkusMySkill{
+#about .pembungkusMySkill{
     width: 100%;
     gap: 10px;
     /* background-color: aqua; */
 }
 
-#porto .pembungkusMySkill div{
+#about .pembungkusMySkill div{
     width: 90px;
     height: 90px;
     overflow: hidden;
 }
 
-#porto .pembungkusMySkill div > p{
+#about .pembungkusMySkill div > p{
     font-size: 10px;
 }
-
-/* ////// main end /////// */
-
-/* ///// footer /////// */
+/* ---------------------------- */
 .navigasiBawah{
     width: 100%;
 }
@@ -91,5 +87,9 @@ nav > ul {
     position: absolute;
 }
 
-/* //// footer end //// */
+/* ////// main end /////// */
+
+
+
+
 }
