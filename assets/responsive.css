@@ -29,6 +29,7 @@ nav > ul {
     height: auto;
     flex-direction: column-reverse;
     margin-bottom: 100px;
+    width: 100%;
     
 }
 
@@ -81,7 +82,12 @@ nav > ul {
 #porto > .pembungkus > div{
     flex-grow: 1;
 }
-
+/* --------------------------- */
+#article p{
+    width: 100%;
+    font-size: 16px;
+    line-height: 2;
+}
 /* ---------------------------- */
 .navigasiBawah{
     width: 100%;
