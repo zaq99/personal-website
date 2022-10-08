@@ -56,6 +56,11 @@ header > .navKontak ul{
 }
 
 /* -------kontak page ----/*/
+.hero .qrCode > img {
+    width: 250px;
+    height: 250px;
+}
+
 .hero > .kontak{
     text-align: center;
 }

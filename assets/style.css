@@ -117,7 +117,7 @@ nav > ul > li a:hover{
     color: #F0BF6C;
 }
 
-.hero img{
+.hero > img{
     height: 100%;
 }
 
@@ -134,7 +134,7 @@ nav > ul > li a:hover{
     color: #F0BF6C;
 }
 
-/* ------------------------- */
+/* ------- kontak page --------- */
 .hero .qrCode{
     display: flex;
     align-items: center;
@@ -145,7 +145,7 @@ nav > ul > li a:hover{
 .hero .qrCode > img{
     width: 300px;
 }
-/* ------------------------- */
+/* ------- kontak page end -------- */
 
 /* //// hero end //// */
 
